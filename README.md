@@ -4,7 +4,7 @@ This repository contains a project completed as part of Machine Learning Introdu
 
 ## Motivation
 
-In this project, a jupyter notebook was initially used to develop code for an image classifier using deep learning built with PyTorch, then it was converted into a command line application.
+In this project, I've applied unsupervised learning techniques to identify segments of the population that form the core customer base for a mail-order sales company in Germany. These segments could be used to direct marketing campaigns towards audiences that would have the highest expected rate of returns, for example. The data used has been provided by Bertelsmann Arvato Analytics, and represents a real-life data science task.
 
 ## Files descriptions
 
