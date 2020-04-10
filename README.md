@@ -2,34 +2,22 @@
 
 This repository contains a project completed as part of Machine Learning Introduction Nanodegree at Udacity.
 
-## Table of Contents
-
-1. [Motivation](#motivation)
-2. [Files descriptions](#filesdescriptions)
-3. [Data](#data)
-6. [Licensing](#license)
-
-## Motivation <a name="motivation"></a>
+## Motivation
 
 In this project, a jupyter notebook was initially used to develop code for an image classifier using deep learning built with PyTorch, then it was converted into a command line application.
 
-## Files description <a name="filesdescriptions"></a>
+## Files descriptions
 
-* A HTML version of the notebook used as base for the development is `index.html`, available online at https://michelnagme.github.io/udacity-image-classifier-project/
-* `cat_to_name.json` is a map of ids to names for the flowers available in dataset.
-* `model_service.py` contains auxiliary functions for training and predicting tasks.
-* `predict.py` uses a trained network to predict the class for an input image.
-* The file `AZDIAS_Feature_Summary.csv` contains a summary of
-feature attributes, including information level, data type, and codes for
-missing or unknown values.
+* The notebook with the analysis and results for this project is `Identify_Customer_Segments.ipynb`. A HTML version of this notebook is `index.html`, available online at https://michelnagme.github.io/udacity-identify-customer-segments-project/
+* The file `AZDIAS_Feature_Summary.csv` contains a summary of feature attributes, including information level, data type, and codes for missing or unknown values.
 
-## Data <a name="data"></a>
+## Data
 
 The data for this project consisted of two files:
 
-- Udacity_AZDIAS_Subset.csv: demographics data for the general population of
+- `Udacity_AZDIAS_Subset.csv`: demographics data for the general population of
       Germany; 891211 persons (rows) x 85 features (columns)
-- Udacity_CUSTOMERS_Subset.csv: demographics data for customers of a mail-order
+- `Udacity_CUSTOMERS_Subset.csv`: demographics data for customers of a mail-order
       company; 191652 persons (rows) x 85 features (columns)
 
 The columns in the general demographics file and customers data file were the
@@ -39,19 +27,19 @@ of each feature.
 
 ### Table of Contents
 
- 1. Person-level features
- 2. Household-level features
- 3. Building-level features
- 4. RR4 micro-cell features
- 5. RR3 micro-cell features
- 6. Postcode-level features
- 7. RR1 neighborhood features
- 8. PLZ8 macro-cell features
- 9. Community-level features
+ 1. [Person-level features](#)
+ 2. [Household-level features](#1)
+ 3. [Building-level features](#2)
+ 4. [RR4 micro-cell features](#3)
+ 5. [RR3 micro-cell features](#4)
+ 6. [Postcode-level features](#5)
+ 7. [RR1 neighborhood features](#6)
+ 8. [PLZ8 macro-cell features](#7)
+ 9. [Community-level features](#8)
 
 -----
 
-## 1. Person-level features
+## 1. Person-level features <a name="1"></a>
 
 ### 1.1. AGER_TYP
 Best-ager typology
@@ -362,7 +350,7 @@ Energy consumption typology
 
 -----
 
-## 2. Household-level features
+## 2. Household-level features <a name="2"></a>
 
 ### 2.1. ALTER_HH
 Birthdate of head of household
@@ -443,7 +431,7 @@ Length of residence
 
 -----
 
-## 3. Building-level features
+## 3. Building-level features <a name="3"></a>
 
 ### 3.1. ANZ_HAUSHALTE_AKTIV
 Number of households in the building
@@ -505,7 +493,7 @@ Neighborhood quality (or rural flag)
 
 -----
 
-## 4. RR4 micro-cell features
+## 4. RR4 micro-cell features <a name="4"></a>
 
 ### 4.1. CAMEO_DEUG_2015
 German CAMEO: Wealth / Life Stage Typology, rough scale
@@ -601,7 +589,7 @@ German CAMEO: Wealth / Life Stage Typology, mapped to international code
 
 -----
 
-## 5. RR3 micro-cell features
+## 5. RR3 micro-cell features <a name="5"></a>
 
 ### 5.1. KBA05_ANTG1
 Number of 1-2 family houses in the microcell
@@ -658,7 +646,7 @@ Number of buildings in the microcell
 
 -----
 
-## 6. Postcode-level features
+## 6. Postcode-level features <a name="6"></a>
 
 ### 6.1. BALLRAUM
 Distance to nearest urban center
@@ -695,7 +683,7 @@ Distance to city center (downtown)
 
 -----
 
-## 7. RR1 region features
+## 7. RR1 region features <a name="7"></a>
 
 ### 7.1. GEBAEUDETYP_RASTER
 Ratio of residential to commercial activity
@@ -746,7 +734,7 @@ Neighborhood typology
 
 -----
 
-## 8. PLZ8 macro-cell features
+## 8. PLZ8 macro-cell features <a name="8"></a>
 
 ### 8.1. KBA13_ANZAHL_PKW
 Number of cars in the PLZ8 region
@@ -814,7 +802,7 @@ Number of buildings within the PLZ8 region
 
 -----
 
-## 9. Community-level features
+## 9. Community-level features <a name="9"></a>
 
 ### 9.1. ARBEIT
 Share of unemployment in community
