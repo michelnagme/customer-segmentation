@@ -9,16 +9,14 @@ In this project, a jupyter notebook was initially used to develop code for an im
 ## Files descriptions
 
 * The notebook with the analysis and results for this project is `Identify_Customer_Segments.ipynb`. A HTML version of this notebook is `index.html`, available online at https://michelnagme.github.io/udacity-identify-customer-segments-project/
-* The file `AZDIAS_Feature_Summary.csv` contains a summary of feature attributes, including information level, data type, and codes for missing or unknown values.
+* The file `AZDIAS_Feature_Summary.csv` contains a summary of feature attributes, including information level, data type, and codes for missing or unknown values; 85 features (rows) x 4 columns
 
 ## Data
 
-The data for this project consisted of two files:
+The data for this project consisted of two files (not available here due to Terms & Conditions of use):
 
-- `Udacity_AZDIAS_Subset.csv`: demographics data for the general population of
-      Germany; 891211 persons (rows) x 85 features (columns)
-- `Udacity_CUSTOMERS_Subset.csv`: demographics data for customers of a mail-order
-      company; 191652 persons (rows) x 85 features (columns)
+- `Udacity_AZDIAS_Subset.csv`: demographics data for the general population of Germany; 891211 persons (rows) x 85 features (columns)
+- `Udacity_CUSTOMERS_Subset.csv`: demographics data for customers of a mail-order company; 191652 persons (rows) x 85 features (columns)
 
 The columns in the general demographics file and customers data file were the
 same. This file documents the features that appear in the data files, sorted in
@@ -27,15 +25,15 @@ of each feature.
 
 ### Table of Contents
 
- 1. [Person-level features](#)
- 2. [Household-level features](#1)
- 3. [Building-level features](#2)
- 4. [RR4 micro-cell features](#3)
- 5. [RR3 micro-cell features](#4)
- 6. [Postcode-level features](#5)
- 7. [RR1 neighborhood features](#6)
- 8. [PLZ8 macro-cell features](#7)
- 9. [Community-level features](#8)
+ 1. [Person-level features](#1)
+ 2. [Household-level features](#2)
+ 3. [Building-level features](#3)
+ 4. [RR4 micro-cell features](#4)
+ 5. [RR3 micro-cell features](#5)
+ 6. [Postcode-level features](#6)
+ 7. [RR1 neighborhood features](#7)
+ 8. [PLZ8 macro-cell features](#8)
+ 9. [Community-level features](#9)
 
 -----
 
