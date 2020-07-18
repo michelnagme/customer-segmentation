@@ -1,4 +1,4 @@
-# Identify Customer Segments
+# Identifying Customer Segments
 
 This repository contains a project completed as part of Machine Learning Introduction Nanodegree at Udacity.
 
