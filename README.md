@@ -1,10 +1,10 @@
-# Udacity Project: Identify Customer Segments
+# Identify Customer Segments
 
 This repository contains a project completed as part of Machine Learning Introduction Nanodegree at Udacity.
 
 ## Motivation
 
-In this project, I've applied unsupervised learning techniques to identify segments of the population that form the core customer base for a mail-order sales company in Germany. These segments could be used to direct marketing campaigns towards audiences that would have the highest expected rate of returns, for example. The data used has been provided by Bertelsmann Arvato Analytics, and represents a real-life data science task.
+In this project, I've applied unsupervised learning techniques to identify segments of the population that form the core customer base for a mail-order sales company in Germany. These segments could be used to direct marketing campaigns towards audiences that would have the highest expected rate of return, for example. The data used has been provided by Bertelsmann Arvato Analytics, and represents a real-life data science task.
 
 ## Files descriptions
 
